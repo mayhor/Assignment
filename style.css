@@ -66,7 +66,7 @@ a:hover{
   padding: 40px;
 }
 
-.skills-heading {
+.services-heading {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   color: #EDF6F9;
@@ -74,28 +74,28 @@ a:hover{
   margin-left: -60px;
 }
 
-.skills-cont {
+.services-cont {
   top:0;
   right:0;
 }
 
-.skills-text {
+.services-text {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 32px;
 }
 
-.skills-group-random {
+.services-group-random {
   list-style: none;
   text-align: end;
 }
 
-.skills-group-dev {
+.services-group-dev {
   list-style: none;
   text-align: start;
 }
 
-.work-heading {
+.project-heading {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   color: #EDF6F9;
@@ -147,7 +147,7 @@ a:hover{
   opacity: 85%;
 }
 
-.logo--skills {
+.logo--services {
   height: 40px;
 }
 
@@ -172,9 +172,9 @@ a:hover{
   left: 60px;
 }
 
-.codecast-btn {
+.linkedin-btn {
   top: 180px;
-  left: 260px;
+  left: 300px;
 }
 
 .tutorial-btn{
@@ -189,7 +189,7 @@ a:hover{
   left: 100px;
 }
 
-.codecast-arrow {
+.linkedin-arrow {
   height: 80px;
   top: 250px;
   left: 180px;
@@ -216,7 +216,7 @@ a:hover{
   left: 280px;
 }
 
-.codecast-text {
+.linkedin-text {
   font-family: 'Permanent Marker', cursive;
   font-size: 22px;
   width: 300px;
@@ -232,14 +232,14 @@ a:hover{
   bottom: -130px;
 }
 
-.iframe-cont {
+.img-codepen {
   position: relative;
   overflow: hidden;
   width: 60%;
   padding-top: 35%;
 }
 
-.responsive-iframe {
+.img codepen {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -344,7 +344,7 @@ a:hover{
     padding: 8px 16px;
     margin: 0px 12px;
   }
-  .iframe-cont {
+  .img-codepen {
     width: 100%;
     padding-top: 60%;
   }
@@ -377,11 +377,11 @@ a:hover{
 }
 
 @media screen and (max-width: 710px) {
-  #skills {
+  #services {
     min-height: 400px;
   }
 
-  .skills-cont{
+  .services-cont{
     margin-top: 200px;
   }
   
@@ -462,3 +462,5 @@ a:hover{
     top: 120px;
   }
 }
+
+
